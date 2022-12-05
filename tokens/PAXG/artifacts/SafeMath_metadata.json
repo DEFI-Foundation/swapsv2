@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {},
+			"title": "SafeMath\r"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/tokens/PAXG/PAXGImplementation.sol": "SafeMath"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/tokens/PAXG/PAXGImplementation.sol": {
+			"keccak256": "0xc0a99e784f40c754bb13cd8bf849bff3db7dd51c0e526d5d6ae4d02acdc71a9a",
+			"urls": [
+				"bzzr://7f251d5341006c5e367bdf5add486c47062da9f0f99a480dddb0ce722cfc0d35"
+			]
+		}
+	},
+	"version": 1
+}
