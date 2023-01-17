@@ -21,7 +21,7 @@ abstract contract MetalSwapPoolAbstract is
     uint256 public rewardTokensPerDay;
     uint256 public lockedAmount;
     uint256 public lockupPeriod = 1 hours;
-    uint256 public constant secondsInADay = 86400; //only for testing purposes
+    uint256 public constant secondsInADay = 86400;
     uint256 public lockedPremium;
 
     uint256 public minLiquidity;

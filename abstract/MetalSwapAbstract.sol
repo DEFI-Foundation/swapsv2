@@ -31,7 +31,7 @@ abstract contract MetalSwapAbstract is ReentrancyGuard, Ownable {
     uint256 public swapAvgCurrency;
     uint256 public marginFactorAsset; //Note: for example, if you want to set safety margin of 50% then set this parameter to 2 (safety margin = 100/marginFactorAsset)
     uint256 public marginFactorCurrency; //Note: if a Currency is present in more than one Swap, these factors must take into account both the safety margin for the Swap as well as the liquidity availability in the pool
-    uint256 public settlementFeePerc = 2 * 10**6; //Note: Must be multiplied by 10^6 (example: 0,5% = 0,5 * 100 * 10^6 = 500000)
+    uint256 public settlementFeePerc = 1 * 10**6; //Note: Must be multiplied by 10^6 (example: 0,5% = 0,5 * 100 * 10^6 = 500000)
     uint256 public PRICE_DECIMALS = 1e8;
     uint256 public constant mult6 = 1e6;
     uint256 public contractCreationTimestamp;

@@ -1622,7 +1622,7 @@ pragma solidity ^0.8.7;
 
 
 contract MetalSwap is ERC20, ERC20Permit, ERC20Votes,ERC20Burnable {
-    constructor(address owner, uint256 initialSupply ) ERC20("MetalSwap Test 3", "XMTT3") ERC20Permit("MetalSwap Test 3") {
+    constructor(address owner, uint256 initialSupply ) ERC20("MetalSwap", "XMT") ERC20Permit("MetalSwap") {
         _mint(owner, initialSupply);
     }
 
